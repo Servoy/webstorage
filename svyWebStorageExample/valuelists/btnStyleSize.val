@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Default|\r\
+Extra Small|btn-cs\r\
+Small|btn-sm\r\
+Large|btn-lg\r\
+",
+name:"btnStyleSize",
+typeid:34,
+uuid:"01BDAE1B-52F4-45AF-AE79-4B35B76A7F15"

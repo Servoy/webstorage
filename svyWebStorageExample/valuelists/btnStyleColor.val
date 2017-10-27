@@ -1,0 +1,9 @@
+addEmptyValue:1,
+customValues:"Default|btn-default\r\
+Info|btn-info\r\
+Success|btn-success\r\
+Warning|btn-warning\r\
+Danger|btn-danger",
+name:"btnStyleColor",
+typeid:34,
+uuid:"017BFD99-4550-458E-A6D5-98A515444B93"

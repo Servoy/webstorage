@@ -14,6 +14,14 @@ typeid:7,
 uuid:"0049AF43-96A1-4237-97C3-D957B83B7EEB"
 },
 {
+displaysTags:true,
+location:"481,178",
+size:"16,20",
+text:"<span class=\"glyphicon glyphicon-search\"><\/span>",
+typeid:7,
+uuid:"1AFD783B-4408-438D-AC5F-426CF36D878E"
+},
+{
 dataProviderID:"btnSizePreference",
 displayType:3,
 location:"408,337",
@@ -56,29 +64,11 @@ typeid:7,
 uuid:"52BD87D2-9606-46E0-B156-02CB453DD53C"
 },
 {
-json:{
-addOnButtons:[
-{
-imageStyleClass:"fa fa-search",
-svyUUID:"104CB407-655D-40AC-A930-4B22FBD5E344"
-}
-],
-dataProvider:"searchText",
-location:{
-x:239,
-y:176
-},
-size:{
-height:34,
-width:285
-}
-},
-location:"239,176",
-name:"input_group_1",
-size:"285,34",
-typeName:"bootstrapextracomponents-input-group",
-typeid:47,
-uuid:"5CE525BD-43B9-4D96-9CA8-40B16DDBF45A"
+dataProviderID:"searchText",
+location:"252,174",
+size:"251,30",
+typeid:4,
+uuid:"849B7824-FF6D-4B8E-81A0-12B889D5AF12"
 },
 {
 anchors:3,
@@ -209,7 +199,7 @@ typeid:7,
 uuid:"D7BC217C-3516-42AA-932E-288BDD53E6DC"
 },
 {
-location:"241,149",
+location:"252,149",
 size:"124,20",
 text:"Key: SearchText",
 typeid:7,
@@ -217,6 +207,7 @@ uuid:"E1FE0202-C0E2-4C18-BB2D-06443963BF06"
 }
 ],
 name:"localStorageSample",
+navigatorID:"-1",
 onShowMethodID:"BE57E09C-BA8C-421E-A47F-1F785BD22CC4",
 showInMenu:true,
 size:"640,603",

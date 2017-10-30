@@ -1,0 +1,10 @@
+{
+    "name":"webstorage",
+    "displayName":"Web Storage",
+    "packageType": "Web-Service",
+    "icon": "https://raw.githubusercontent.com/Servoy/webstorage/master/webstorage/webstorage.png",
+    "description": "NG Services to access the HTML5 Web Storage from the Servoy NG Client",
+    "wikiUrl": "https://github.com/Servoy/webstorage/wiki",
+    "sourceUrl" : "https://github.com/Servoy/webstorage",
+    "releases" : [{"version":"1.0.0","url":"https://github.com/Servoy/webstorage/releases/download/v1.0.0/webstorage.zip", "servoy-version":"8.2"}]
+}

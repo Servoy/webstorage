@@ -15,7 +15,7 @@ function getName() {
  * @properties={typeid:24,uuid:"D1AD81E3-219B-4187-A5FC-5ACE6FD1597A"}
  */
 function getDescription() {
-	return 'Web Local Storage'
+	return 'Example of the Web Local Storage service'
 }
 
 /**
@@ -49,4 +49,36 @@ function getSampleCode() {
 	.concat(printMethodCode(forms.localStorageSample.removeItemSearchText))
 	.concat(printMethodCode(forms.localStorageSample.clearAll));
 
+}
+
+
+/**
+*
+* @return {String} Website URL
+*
+* @properties={typeid:24,uuid:"CE4CE763-80C5-4659-B50F-75E467EDC7AA"}
+*/
+function getWebSiteURL() {
+	return 'https://github.com/Servoy/webstorage';
+}
+
+/**
+*
+* @return {String} Additioanl info (wiki markdown supported)
+*
+* @properties={typeid:24,uuid:"490036A1-93A6-48F1-BF9D-06DFAEFB2750"}
+*/
+function getMoreInfo() {
+	var url = 'https://raw.githubusercontent.com/Servoy/webstorage/master/README.md';
+	return plugins.http.getPageData(url);
+}
+
+/**
+*
+* @return {String} Download URL
+*
+* @properties={typeid:24,uuid:"93B0AC6D-725C-44E4-8A3F-A6F40B0D6CD9"}
+*/
+function getDownloadURL() {
+	return 'https://github.com/Servoy/webstorage/releases/download/v1.0.0/svyWebStorageExample.servoy';
 }
